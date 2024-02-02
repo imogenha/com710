@@ -3,20 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/Week_1_Exercises/Task _1/CSS/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
     <title>CV Task</title>
 </head>
-<body>
-    <h1>Ash Ketchum</h1>
-		 
-        <img src="/Week_1_Exercises/Task _1/Data/ash.jpg" alt="Ash Ketchum" width="400" height="300">
-		 
-		<h2>Personal Information</h2>
+
+<body class="body-container">
+
+	<div class="header-container">
+		<div class="Header">Ash Ketchum</div>
+		  <ul class="navigate">
+			<li><a href="">About</a></li>  
+			<li><a href="">Contact</a></li>
+			<li><a href="">Comission</a></li>
+		  </ul> 
+	  </div>
+
+	  <div class="top-container">
+		<div class="top">
+		<h2 class="top-subheading">Personal Information</h2>
 		
 		<p><strong>Date Of Birth:</strong> 22nd May</p>
 		<p><strong>Email:</strong> Ash@billsPC.com</p>
         <p><strong>Address:</strong> House on the left, Pallet Town, Kanto</p>
+		</div>
+		<img src="/Week_1_Exercises/Task _1/Data/ash.jpg" 
+		alt="Ash Ketchum" width="400" height="300">
 		
-		<hr>
+	</div>
+	<div class="middle-section">
 
 		<h2>Championships</h2>
 		

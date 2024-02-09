@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/Week_1_Exercises/Task _1/CSS/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <title>CV Task</title>
+</head>
+
+<body class="body-container">
+
+	<div class="header-container">
+		<div class="Header">Ash Ketchum</div>
+		  <ul class="navigate">
+			<li><a class="nav" href="">About</a></li>  
+			<li><a class="nav" href="">Contact</a></li>
+			<li><a class="nav" href="">Comission</a></li>
+		  </ul> 
+	  </div>
+
+	  <div class="top-container">
+		<div class="top">
+		<h2 class="top-subheading">Personal Information</h2>
+		
+		<p><strong>Date Of Birth:</strong> 22nd May</p>
+		<p><strong>Email:</strong> Ash@billsPC.com</p>
+        <p><strong>Address:</strong> House on the left, Pallet Town, Kanto</p>
+		</div>
+
+		<div class="image-wrapper">
+			<img id="ash" src="/Week_1_Exercises/Task _1/Data/ash.jpg" 
+			alt="Ash Ketchum" width="200" height="150">
+		</div>
+		
+	</div>
+	<div class="middle-section">
+
+		<div id="champ">
+			<h2>Championships</h2>
+		
+			<ul>
+				<li>Orange League Champion</li>
+				<li>Manalo Conference Winner</li>
+			</ul>
+		</div>
+		
+		<div id="league">
+			<h2>League Finishes</h2>
+		
+			<ul>
+				<li><strong>Lumiose Conference -</strong> Runner-Up</li>
+				<li><strong>Lily of the Valley Conference -</strong> Top 4</li>
+				<li><strong>Silver Conference -</strong> Top 8</li>
+				<li><strong>Ever Grande Conference -</strong> Top 8</li>
+				<li><strong>Vertress Conference -</strong> Top 8</li>
+				<li><strong>Indigo Plateau Conference -</strong> Top 16</li>
+			</ul>
+		</div>
+
+	</div>
+	
+	<div class="profile">
+		<div id="desc">
+			<h2>Personal Profile</h2>
+			<p id="bio"><strong>According to <a href="https://bulbapedia.bulbagarden.net/wiki/Ash_Ketchum">Bulbapedia:</strong></a> Ash is a Pokémon Trainer from Pallet Town whose goal is to become a Pokémon Master. 
+			His starter Pokémon was a Pikachu that he received from Professor Oak.
+			He is the first ever Champion of the Alola region's Pokémon League.
+	    	</p>
+		</div>
+			<img src="/Week_1_Exercises/Task _1/Data/poke.png" 
+			alt="Ash Ketchum" width="200" height="200">
+	</div>
+
+
+	<div class="bottom-container">
+
+		<div class="sub-content">
+
+			
+			<h2>Other Experience</h2>
+		
+			<p>
+			<strong>Battle Frontier -</strong> Kanto
+			seven Frontier Brains offered the opportunity to become a Frontier Brain 
+	    	</p>
+		
+			<p>
+			<strong>Team Rocket Slayer -</strong> Worldwide!
+			It looks like they are blasting off again!
+		</p>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>© Copyright Ash Ketchum 2024</p>
+		<img src="/Week_1_Exercises/Task _1/Data/WnES.gif"
+		width="100"; height="100">
+	</div>
+</body>
+</html>

@@ -6,12 +6,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="/Week_3_Exercises/CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=La+Belle+Aurore&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rosarivo&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="external-container">
 
         <div class="header-container">
-            <h1>Welcome to Baldur's Gate</h1>
+            <h1 id="title">Welcome to Baldur's Gate</h1>
+        </div>
+
+        <div class="nav-container">
             <ul class="navigate">
                 <li><a class="nav" href="">About</a></li>  
                 <li><a class="nav" href="">Contact</a></li>
@@ -21,18 +28,27 @@
             </ul>  
         </div>
 
-        <div class="center-container">
-            <h1>What's so good about Baldur's Gate?</h1>
-            <div class="center-left">
-                <img>
-                <h3>The people!</h3>
-                <p1>Insert relevant parapgraph here</p1>
-            </div>
 
-            <div class="center-right">
-                <h3>The architecture!</h3>
-                <p1>Insert relevant parapgraph here</p1>
-                <img>
+            <div class="center-container">
+                <div class="sub-panel">
+                    <div class="img-wrap">
+                        <img src="/Week_3_Exercises/Data/people.png" height="400px">
+                    </div>
+                    <h3 class="descrip">The people!</h3>
+                    <p1 class="descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ante quis odio bibendum eleifend.
+                        Suspendisse sit amet augue id turpis euismod faucibus. Phasellus et interdum massa, commodo dignissim massa. Quisque eros odio, ultrices nec urna a, sodales egestas felis. 
+                        Cras dictum vitae mi id dignissim. Nullam tellus ligula, tristique eget nulla sed, volutpat convallis arcu. Aliquam erat volutpat.   
+                    </p1>
+                </div>
+
+            <div class="sub-panel">
+                <h3 class="descrip">The architecture!</h3>
+                <p1 class="descrip">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ante quis odio bibendum eleifend. 
+                    Suspendisse sit amet augue id turpis euismod faucibus. Phasellus et interdum massa, commodo dignissim massa. Quisque eros odio, ultrices nec urna a, sodales egestas felis. 
+                    Cras dictum vitae mi id dignissim. Nullam tellus ligula, tristique eget nulla sed, volutpat convallis arcu. Aliquam erat volutpat.   
+                 </p1>
+                <img src="/Week_3_Exercises/Data/city.jpg">
             </div>
         </div>
 

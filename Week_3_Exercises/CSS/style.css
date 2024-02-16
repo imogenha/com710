@@ -3,10 +3,39 @@ div, button {
     font-family: "Playfair Display", serif;
 }
 
+.external-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(20, 10, 29);
+}
+
 .header-container {
-    background-image: url(/Week_3_Exercises/Data/background.png);
-    background-size: 10S0vh;
+    background-image: url(/Week_3_Exercises/Data/background.jpg);
+    background-size: 200vh;
     height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    
+}
+
+.nav-container {
+    height: 25px;
+    padding-top: 10px;
+    padding-bottom: 40px;#
+
+}
+
+.header-title {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: 10px;
+    font-family: 'Rosarivo', cursive;
 }
 
 .navigate {
@@ -15,7 +44,62 @@ div, button {
     list-style-type: none;
 }
 
+.center-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.sub-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 100px;
+    color: aliceblue;
+}
+
+.bottom-container {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 60px;
+    color: antiquewhite;
+    background-color: rgb(81, 66, 87);
+    
+}
+
+.footer {
+    display: flex;
+    align-items:end;
+    padding: 10px;
+    color: rgb(205, 210, 214);
+    background-color: rgb(20, 17, 31);
+}
+
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(240, 231, 231);
+}
+
+.descrip {
+    margin: 1vb;
+}
+
+img {
+    margin: 1vb;
+}
+
+#title {
+    font-family: 'La Belle Aurore', cursive;
+    background-color: transparent;
+    color:rgb(27, 5, 41);
+    opacity: 100%;
+}
+
+.img-wrap {
+    width: 60px;
 }

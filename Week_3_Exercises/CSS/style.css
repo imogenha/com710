@@ -8,6 +8,10 @@ div, button {
     flex-direction: column;
     justify-content: space-between;
     background-color: rgb(20, 10, 29);
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    box-sizing: border-box;
 }
 
 .header-container {
@@ -164,6 +168,16 @@ img {
     margin: 1vb;
 }
 
+#cookieBanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    padding: 2vh;
+    width: 30vh;
+}
+
+
 #title {
     font-family: 'La Belle Aurore', cursive;
     color:rgb(27, 5, 41);
@@ -181,4 +195,62 @@ img {
     max-height: 100%;
     height: auto;
     width: auto\9;
+}
+
+/* quiz */
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20vh;
+    color: antiquewhite;
+}
+
+#qbuttonWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh;
+}
+
+.qbut {
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+
+#q2 {
+    display: none;
+}
+
+#q3 {
+    display: none;
+}
+
+#ans {
+    display: none;
+}
+
+
+/* contact */
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh;
+}
+
+#form-title {
+    color: antiquewhite;
+}
+
+#main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: antiquewhite;
 }

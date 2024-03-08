@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Week_3_Exercises/CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=La+Belle+Aurore&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rosarivo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="external-container">
+
+        <div class="header-container">
+            <h1 id="title">Welcome to Baldur's Gate</h1>
+        </div>
+
+        <div class="nav-container">
+            <ul class="navigate">
+                <li><a class="nav" href="/Week_3_Exercises/HTML/index.html">Home</a></li>  
+                <li><a class="nav" href="/Week_3_Exercises/HTML/quiz.html">Quiz</a></li>
+                <li><a class="nav" href="">Comission</a></li>
+                <li><a class="nav" href="/Week_3_Exercises/HTML/contact.html">Contact</a></li>
+            </ul>  
+        </div>
+
+        <div class="quiz-container">
+            <h3>What DnD class are you?</h3>
+            <p1>Answer the below questions to be assigned a class!</p1>
+            <div id="q1">
+                <p1>How would you best spend a night out?</p1>
+                <div id="qbuttonWrapper">
+                    <button class="qbut" id="q1a1">Cosied up with a book!</button>
+                    <button class="qbut" id="q1a2">Out on the town..</button>
+                </div>
+            </div>
+
+            <div id="q2">
+                <p1>What is the best creature?</p1>
+                <div id="qbuttonWrapper">
+                    <button class="qbut" id="q2a1">An Owl</button>
+                    <button class="qbut" id="q2a2">A cat</button>
+                </div>
+            </div>
+
+            <div id="q3">
+                <p1>What is the best food?</p1>
+                <div id="qbuttonWrapper">
+                    <button class="qbut" id="q3a1">Leek and Potato Pie</button>
+                    <button class="qbut" id="q3a2">Dark Chocolate</button>
+                </div>
+            </div>
+
+            <h3 id="ans"></h3>
+
+        </div>
+
+        <div class="footer">
+            <img id="kar" src="/Week_3_Exercises/Data/karlach.png">
+            <h3 id="cp">© The City of Baldurs Gate</h3>
+        </div>
+
+        <script src="/Week_3_Exercises/JS/quiz.js"></script>
+    </div>
+</body>
+</html>

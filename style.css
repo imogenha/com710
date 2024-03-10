@@ -1,0 +1,225 @@
+body {margin: 0; padding: 0; border: 0; box-sizing:border-box;}
+div, button {
+    font-family: "Montserrat", sans-serif;
+    color: antiquewhite;
+}
+
+.external-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    box-sizing: border-box;
+    
+}
+
+.header-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+    background-color: transparent;
+    
+}
+
+.nav-container {
+    height: 25px;
+    background-color: rgb(20, 10, 29);
+    padding-bottom: 5vh;
+}
+
+
+.navigate {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 60px;
+    color: antiquewhite;
+    background-color: rgb(81, 66, 87);
+    
+}
+
+.panel1 {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    color: rgb(205, 210, 214);
+    background-color: rgb(20, 17, 31);
+}
+
+
+@media only screen and (max-width: 340px) {
+
+    .header-container {
+        background-image: url(/Week_3_Exercises/Data/background.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        text-align: center;
+        flex-shrink: 5;
+        
+    }
+
+    .nav {
+        font-size: 2vh;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .nav-container {
+        display: flex;
+        justify-content:center; 
+        padding-left: 10px;
+        padding-right: 40px;
+    }
+    
+    .navigate {
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+
+    .nav {
+        padding-left: 1vh;
+        padding-right: 1vh;
+    }
+}
+
+@media only screen and (max-width: 885px){
+
+
+    .center-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2vh;
+    }
+    
+    .sub-panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 3vh;
+        color: aliceblue;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: start;
+        color: rgb(205, 210, 214);
+        background-color: rgb(20, 17, 31);
+    }
+
+    #cp {
+        font-size: 2vh;
+    }
+
+    #kar {
+        width: 3vh;
+    }
+}
+
+@media only screen and (min-width: 886px){
+    .center-container {
+        background-color: rgb(20, 10, 29);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 30vh;
+    }
+    
+    .sub-panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 5vh;
+        color: aliceblue;
+    }
+    }
+.descrip {
+    margin: 1vb;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(240, 231, 231);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(240, 231, 231);
+    font-size: 15px;
+}
+
+img {
+    margin: 1vb;
+}
+
+#cookieBanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    padding: 2vh;
+    width: 30vh;
+}
+
+
+#title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    color:rgb(244, 242, 244);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: +1;
+}
+
+#background-video {
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#kar {
+    width: 5vh;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto\9;
+}

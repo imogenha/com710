@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Week_3_Exercises/CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=La+Belle+Aurore&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rosarivo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="external-container">
+
+        <div class="header-container">
+            <h1 id="title">Welcome to Baldur's Gate</h1>
+        </div>
+
+        <div class="nav-container">
+            <ul class="navigate">
+                <li><a class="nav" href="/Week_3_Exercises/HTML/index.html">Home</a></li>  
+                <li><a class="nav" href="/Week_3_Exercises/HTML/quiz.html">Quiz</a></li>
+                <li><a class="nav" href="">Comission</a></li>
+                <li><a class="nav" href="/Week_3_Exercises/HTML/contact.html">Contact</a></li>
+            </ul>  
+        </div>
+
+        <div class="form-container">
+            <h3 id="form-title">Please use the form to contact us</h3>
+            <div id="main-form">
+                <form id="frm">
+                    <p> <label for="name">Name: </label> </p>
+                    <input id="txtName" type="text" name="name"> 
+                    <p> <label for="email">Email: </label> </p>
+                    <input id="txtEmail" type="email" name="email" required>
+
+                    <p>What is your query about?</p>
+                    <input type="radio" id="city" name="query" value="The city" required>
+                    <label for="city">The City</label><br>
+                    <input type="radio" id="game" name="gender" value="The game" required>
+                    <label for="game">The Game</label><br>
+
+                    <p><label for="consent">Do you consent to a letter response? </label> </p>
+                    <input id="txtConsent" type="text" name="consent" required>
+
+                    <p> <label for="qcontent">Give a brief overview of your query below. </label> </p>
+                    <textarea id="queryInput" type="text" name="qcontent" rows="4" cols="50" required></textarea>
+                    <p><input type="submit" value="Submit"> </p>
+                    
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            <img id="kar" src="/Week_3_Exercises/Data/karlach.png">
+            <h3 id="cp">© The City of Baldurs Gate</h3>
+        </div>
+
+        <script src="/Week_3_Exercises/JS/contact.js"></script>
+    </div>
+</body>
+</html>
